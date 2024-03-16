@@ -1,0 +1,92 @@
+.html {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    height: 5rem;
+    color: #000000;
+}
+
+.navbar_logo {
+    font-weight: 700;
+    align-items: center;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    padding: 6%;
+
+}
+
+.navbar_imagen {
+    height: 2rem;
+}
+
+/* Sección NOVEDADES */
+#novedades {
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-top: 2%;
+}
+
+.novedades_fecha {
+    font-weight: 400;
+    color: #171717;
+    font-size: 0.8rem;
+
+}
+
+.novedades_title {
+    font-weight: 700;
+
+}
+
+.novedades_subtitle {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.novedad_container {
+    display: flex;
+    padding-top: 3rem;
+}
+
+.novedad_img {
+    flex: 0 0 auto;
+}
+
+.novedad {
+    flex: 1 1 auto;
+    padding-left: 2rem;
+
+}
+
+.bootstrap_img {
+    height: 280px;
+    border-radius: 20px;
+}
+
+.novedades_ADL {
+    border-radius: 50%;
+    height: 4rem;
+    padding: 1%;
+}
+
+.logo_ADL {
+    border-radius: 50%;
+    height: 3rem;
+    padding: 2%;
+}
+
+.posts {
+    border-radius: 20px;
+    width: 12rem;
+    height: 8rem;
+}
+
+.novedades_p {
+    font-size: 1.4rem;
+}
+
+hr {
+    font-weight: 2px;
+}
