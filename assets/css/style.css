@@ -44,10 +44,11 @@ body * {
 /* Main article  */
 .article {
     padding-top: 2rem;
+    padding-bottom: 4%;
     padding-left: 10%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     gap: 10px;
 }
 
@@ -151,4 +152,141 @@ body * {
 .post__logo-p {
     font-size: 16px;
     font-weight: 400;
+}
+
+/* Sección populares */
+.title {
+    padding-left:10%;
+    padding-top: 4%;
+    padding-bottom: 1rem;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.sections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 10%;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0; 
+    gap: 50px;
+}
+
+.section__content {
+    padding-bottom: 4%;
+}
+
+.section__publication{
+    width: 100%;
+}
+.section__img {
+    width: 400px;
+    height: 280px;
+    border-radius: 18px;
+}
+
+.section__date {
+    padding-top: 3%;
+}
+
+.section__logo {
+    padding-top: 5%;
+    padding-bottom: 0%;
+}
+
+.section__logo-img {
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.section__logo-p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section__title {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.section__subtitle {
+    font-size: 20px;
+    font-weight: 700;
+}
+.categorias {
+    display: grid;
+    grid-column: 2; 
+    grid-row: 1 / 3;
+    padding-left: 10rem;
+}
+
+.categorias__title {
+    padding-bottom: 1rem;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: end;
+    padding-right: 14%;
+    margin-top: -55px;
+}
+
+.categorias__subtitle{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-right: 1rem;
+    justify-content: end;
+}
+
+.categorias__logos {
+    align-items: center;
+    width: 298px;
+}
+
+.categorias__logo--red {
+    background-color: #E93E30;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.categorias__logo--yellow {
+    background-color: #F7E018;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.categorias__logo--blue {
+    background-color: #299ED5;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.categorias__logo--black {
+    background-color: #292C33;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.categorias__logo--green {
+    background-color: #67C770;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.categorias__logo--purple {
+    background-color: #563D7C;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.logo__img {
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.categorias__link {
+    text-decoration: none;
+    color: #171717;
 }
