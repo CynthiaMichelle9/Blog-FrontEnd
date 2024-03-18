@@ -40,3 +40,115 @@ body * {
 .hr {
     margin: 0%;
 }
+
+/* Main article  */
+.article {
+    padding-top: 2rem;
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.article__title {
+    font-weight: 700;
+    font-size: 28px;
+    padding-bottom: 1rem;
+}
+
+.article__subtitle {
+    font-weight: 700;
+    font-size: 24px
+}
+
+.article__img {
+    border-radius: 16px;
+    height: 18rem;
+    width: 34rem;
+}
+
+.article__logo {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.article__logo-img {
+    height: 2.4rem;
+    border-radius: 50%;
+}
+
+.article__logo-p {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.article__date {
+    font-size: 18px;
+    font-weight: 400;
+    color: #171717;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+}
+
+/* Posts */
+.post {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    /* Tres filas para cada post */
+    gap: 20px;
+    grid-column: 2 / 3; /* Colocar los posts en la segunda columna */
+    align-self: stretch;
+    padding-top: 3.6rem;
+}
+
+.post__content {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* Dos columnas, una para la imagen y otra para el contenido */
+    gap: 1rem;
+}
+
+.post__publicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 0%;
+}
+
+.post__title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.post__date {
+    font-size: 16px;
+    font-weight: 400;
+    color: #171717;
+    padding-bottom: 0.4rem;
+    margin-bottom: 0;
+}
+
+.post__logo {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.post__img {
+    width: 16rem;
+    height: 10rem;
+    border-radius: 14px;
+}
+
+.post__logo-img {
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.post__logo-p {
+    font-size: 16px;
+    font-weight: 400;
+}
