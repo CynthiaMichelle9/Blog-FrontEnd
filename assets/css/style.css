@@ -1,4 +1,4 @@
-.html {
+* {
     font-family: "Poppins", sans-serif;
 }
 
@@ -11,9 +11,9 @@ body * {
 
 /* Sección barra de navegación  */
 .nav {
-    height: 5em;
+    height: 3em;
     color: #000000;
-    padding: 0;
+    padding: 2rem;
 
 }
 
@@ -37,8 +37,12 @@ body * {
 }
 
 /* Sección Novedades */
+
 .hr {
     margin: 0%;
+    border: none; 
+    height: 1px;
+    background-color: #171717;
 }
 
 /* Main article  */
@@ -167,6 +171,7 @@ body * {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-left: 10%;
+    margin-bottom: 4%;
 }
 
 .section {
@@ -219,6 +224,9 @@ body * {
     font-size: 20px;
     font-weight: 700;
 }
+
+/* Categorías */
+
 .categorias {
     display: grid;
     grid-column: 2; 
@@ -240,11 +248,9 @@ body * {
     font-weight: 700;
     color: #FFFFFF;
     padding-right: 1rem;
-    justify-content: end;
 }
 
 .categorias__logos {
-    align-items: center;
     width: 298px;
 }
 
@@ -283,7 +289,6 @@ body * {
     width: 5rem;
     height: 5rem;
     margin: 1rem;
-    padding: 1rem;
 }
 
 .categorias__link {
@@ -294,7 +299,6 @@ body * {
 /* Footer */
 
 .footer {
-    height: 5rem;
     color: #000000;
     padding-left: 10%;
     padding-right: 10%;
